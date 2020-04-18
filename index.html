@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Travelsite - Hotel Popup</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="container">
+    <button class="btn btn-blue js-btn--popup-hotel">POPUP BUTTON</button>
+
+    <!-- Modal -->
+    <div class="modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-body">
+          <section class="modal-sidebar" style="background-image: url(img/sidebar-modal.jpg);">
+
+          </section>
+
+          <section class="modal-content">
+            <!-- Modal content -->
+            <h3 class="modal-content__title">Four Seasons Resort Bali</h3>
+            <p class="modal-content__subtitle">Sayan Ubud Gianyar, Ubud, Indonesia, 80361</p>
+            <p class="modal-content__rating">
+              <span class="modal-content__rating-stars"><i class="fa fa-star"></i> 5 Stars</span>
+              <span class="modal-content__rating-average">9/10 Very Good</span>
+            </p>
+
+            <p class="modal-content__text">The highest quality service accompanying its extensive facilities will make you get the ultimate holiday experience. Get Precious and unforgettable moment during your stay at Four Seasons Resort Bali at Sayan</p>
+
+            <!-- Modal content Hotel Policy: accordion -->
+            <div class="accordion">
+              <div class="accordion__header">
+                <a href="#" title="" class="accordion__tab js-accordion-tab">Hotel Policy <i class="fa fa-chevron-down"></i></a>
+              </div>
+              <div class="accordion__content">
+                <p>You must present a photo ID when checking in. Your credit card is charged at the time you book. Bed type and smoking preferences are not guaranteed. Your reservation is prepaid and is guaranteed for late arrival.</p>
+              </div>
+            </div>
+
+            <!-- Modal content footer: pricing & action -->
+            <div class="modal-content__footer">
+              <div class="modal-content__footer-price">
+                <p class="modal-content__footer-price-text">Starting from</p>
+                <p class="modal-content__footer-price-value">Rp 11.623.675</p>
+              </div>
+              <div class="modal-content__footer-action">
+                <button class="btn btn-orange js-btn--book-now">Book Now</button>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
+  </div>
+  <script src="/app.js" type="text/javascript" async defer></script>
+</body>
+</html>
